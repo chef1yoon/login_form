@@ -12,7 +12,7 @@ const output = {
 
 const users = {
   name: ["karen", "coco", "hello"],
-  email: ["karen@email.com", "coco@email.com", "hello@email.com"],
+  // email: ["karen@email.com", "coco@email.com", "hello@email.com"],
   psword: ["123456", "12345678", "123456789"],
 };
 
@@ -24,7 +24,8 @@ const process = {
 
     if (users.name.includes(name)) {
       const namex = users.name.indexOf(name);
-      if (users.pswrod[namex] === psword) {
+      // const email = user.email.indexOf(email);
+      if (users.psword[namex] === psword) {
         return res.json({
           success: true,
         });
