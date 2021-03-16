@@ -1,0 +1,29 @@
+{
+  "name": "login_form",
+  "version": "1.0.0",
+  "description": "브라우저 경로는 기본경로(\"/\")와 로그인경로(\"/login\") 포트는 3000으로(\"localhost:3000\") express로 서버 띄워보았습니다.",
+  "main": "app.js",
+  "bin": {
+    "login_form": "www.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chef1yoon/login_form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chef1yoon/login_form/issues"
+  },
+  "homepage": "https://github.com/chef1yoon/login_form#readme",
+  "keywords": []
+}
