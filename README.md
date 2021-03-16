@@ -7,3 +7,8 @@
 조건문을 이용해서 출력화면을 다르게 설정해보았습니다.
 
 
+## 로그인 화면 만들기
+
+
+## view engine을 ejs로 사용
+"home/index" 파일과 "home/login"파일을 res.render해줍니다.
