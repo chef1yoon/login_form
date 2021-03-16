@@ -24,3 +24,8 @@ app.use()를 이용해서 파일들을 서로 연결 시켜주었습니다.
 
 #### PORT 사용하는 방법
 app.listen에서 바로 포트번호를 선언하는 것이 아닌, 변수명("PORT")로 해주는것이 좋습니다.
+
+
+#### 만약 npm ERR! missing script: start 에러가 있을시,
+package.json에서 script부분에 start가 누락되었는지 확인하고, 실행파일 경로를 삽입해주면 됩니다.
+"scripts": {"start": "node ./bin/www.js"}
